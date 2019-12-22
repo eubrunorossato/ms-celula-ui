@@ -1,0 +1,9 @@
+{
+  "devToolsPort": 19002,
+  "expoServerPort": 19000,
+  "packagerPort": 19003,
+  "packagerPid": 6378,
+  "expoServerNgrokUrl": "https://q6-k6c.anonymous.celulaproject.exp.direct",
+  "packagerNgrokUrl": "https://packager.q6-k6c.anonymous.celulaproject.exp.direct",
+  "ngrokPid": 6388
+}
