@@ -16,7 +16,9 @@ const componentStyle = StyleSheet.create({
     fontWeight: "500",
   },
   colorStyle: {
-    backgroundColor: "#005dff",
+    backgroundColor: "#1e1e1e",
+    borderTopRightRadius: 8,
+    borderTopLeftRadius: 8,
     borderBottomRightRadius: 0,
     borderBottomLeftRadius: 0
   }
