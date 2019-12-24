@@ -19,9 +19,6 @@ const componentStyle = StyleSheet.create({
   footerStyle: {
     borderTopWidth: 0,
   },
-  Button: {
-    backgroundColor: "#02ff90"
-  }
 })
 
 export {
