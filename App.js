@@ -1,10 +1,14 @@
-import React, { Component } from 'react';
+import { HomeScreen } from "./src/screen/homeScreen";
+import { createAppContainer } from 'react-navigation';
+import { createDrawerNavigator } from "react-navigation-drawer";
 
-export default class App extends Component {
-  render() {
-    return (
-      <View>
-      </View>
-    );
+const navigator = createDrawerNavigator({
+  Home: {
+    screen: HomeScreen
   }
-}
+
+}, {
+  initialRouteName: "Home",
+});
+
+export default createAppContainer(navigator);
