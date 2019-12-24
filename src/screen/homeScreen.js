@@ -2,6 +2,7 @@ import React from "react";
 import { Container, Content, Text } from "native-base";
 import { MainHeader } from "../components/Header";
 import { DrawerActions } from "react-navigation-drawer";
+import { FooterBar } from "../components/footerTab";
 
 const HomeScreen = (props) => {
   return (
@@ -23,6 +24,7 @@ const HomeScreen = (props) => {
         <Text>Home Screen</Text>
         <Text>Home Screen</Text>
       </Content>
+      <FooterBar />
     </Container>
   )
 };

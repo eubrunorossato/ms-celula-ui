@@ -30,6 +30,7 @@ build/
 local.properties
 *.iml
 
+.expo/
 # node.js
 #
 node_modules/
