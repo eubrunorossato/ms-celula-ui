@@ -17,14 +17,12 @@ const TableCelulaMembers = () => {
     getAllMembers();
   }, [])
 
-
   const renderRows = () => (
     memberList.map(member => {
       return <Row key={member._id} data={[member.ledName, member.ledRole]} textStyle={componentStyle.text} />
     })
-  )
+  );
 
-  console.log(memberList)
   return (
     <View style={componentStyle.viewStyle} >
       <H3 style={componentStyle.h3Style}>
