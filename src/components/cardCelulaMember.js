@@ -10,7 +10,7 @@ const TableCelulaMembers = () => {
 
   useEffect(() => {
     async function getAllMembers() {
-      const response = await axios.get("http://localhost:5001/api/leader/get-all-leds")
+      const response = await axios.get("http://localhost:5001/api/leader/get-all-leds");
       const celulaMembers = response.data.response.data;
       setMemberList(celulaMembers);
     }
