@@ -25,16 +25,16 @@ const MainHeader = (props) => {
 
 const componentStyle = StyleSheet.create({
   headerStyle: {
-    backgroundColor: "black",
+    backgroundColor: "#ff0064",
     borderBottomWidth: 0,
     position: "relative"
   },
   iconStyle: {
-    color: "#d0d0d0",
+    color: "white",
   },
   titleStyle: {
     fontWeight: "600",
-    color: "#d0d0d0"
+    color: "white"
   }
 });
 
